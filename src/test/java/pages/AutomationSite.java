@@ -20,8 +20,7 @@ public class AutomationSite {
 	@FindBy(xpath = "//input[@id='email']") WebElement emailField ;
 	@FindBy(xpath = "//input[@id='passwd']") WebElement passwordField;
 	@FindBy(xpath = "//*[@id=\"days\"]/option[20]") WebElement dobDaysDropDown ;
-	@FindBy(xpath = "//*[@id=\"months\"]/option[6]")WebElement dobMonthsDropDown ;
-	@FindBy(xpath = "//*[@id=\"years\"]/option[32]" ) WebElement  dobYearDropDown;
+	
 	@FindBy(xpath = "//input[@id='firstname']") WebElement firstNameField2  ;
 	@FindBy(xpath = "//input[@id='lastname']") WebElement  lastNameField2;
 	@FindBy(xpath = "//*[@id=\"company\"]"  ) WebElement  companyField;
@@ -30,8 +29,7 @@ public class AutomationSite {
 	@FindBy(xpath = "//*[@id=\"city\"]") WebElement cityField;
 	@FindBy(xpath = "//*[@id=\"id_state\"]/option[34]") WebElement stateDropdown;
 	@FindBy(xpath = "//*[@id=\"postcode\"]") WebElement zipcodeField;
-	@FindBy(xpath = "//input[@id='phone_mobile']") WebElement  phoneNumberField;
-	@FindBy(id="address_alias") WebElement addressAliasField;
+	
 	@FindBy(xpath = "//button[@id='submitAccount']") WebElement  registerButton;
 	
 	public void ValidatePage() {
